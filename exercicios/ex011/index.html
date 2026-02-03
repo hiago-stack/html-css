@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Aumente ou diminua o tamanho do seu navegador ou abra o arquivo em outro dispositivo</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/fotom-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexivel">
+    </picture>
+    <h1>Reproduzindo audios em HTML5</h1>
+    <audio src="midia/A Walk Into Space - Topher Mohr and Alex Elena.mp3" controls autoplay></audio>
+    <audio preload="auto" autoplay controls>
+        <source src="midia/Moonlight Sonata (by Beethoven) - Beethoven.mp3" type="audio/mpeg">
+        <p>Infelizmente o arquivo não pode ser reproduzido, cick aqui para fazer o dowload em mp3</p>
+    </audio>
+
+</body>
+</html>
